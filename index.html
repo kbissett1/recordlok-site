@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>SiteMark | Project Management for the Field</title>
+
+  <meta
+    name="description"
+    content="SiteMark is a mobile project-management application for construction and field-work projects."
+  >
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1217;
+      --panel: #151c23;
+      --border: #28333d;
+      --text: #f5f7f9;
+      --muted: #a7b2bc;
+      --accent: #d5a94f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(13,18,23,.96);
+    }
+
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .brand {
+      font-size: 16px;
+      font-weight: 900;
+      letter-spacing: 4px;
+    }
+
+    .navlinks {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+
+    .navlinks a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 24px 70px;
+    }
+
+    .hero {
+      padding: 100px 0 80px;
+      max-width: 760px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 800;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 72px);
+      line-height: 1.05;
+      margin: 14px 0 24px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-top: 0;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 20px;
+      max-width: 720px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+      margin: 30px 0 70px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 26px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    section {
+      padding: 45px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    section p {
+      color: var(--muted);
+      max-width: 800px;
+    }
+
+    .price-box {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      max-width: 700px;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      padding: 35px 24px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer a {
+      margin: 0 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="brand">SITEMARK</div>
+
+    <div class="navlinks">
+      <a href="#product">Product</a>
+      <a href="#pricing">Pricing</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="refunds.html">Refunds</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div class="hero">
+    <div class="eyebrow">
+      PROJECT MANAGEMENT FOR THE FIELD
+    </div>
+
+    <h1>
+      Keep the job site organized.
+    </h1>
+
+    <p class="lead">
+      SiteMark is a mobile project-management application
+      built for construction and field-work projects.
+      It helps users organize project information,
+      document work, coordinate project activity,
+      and keep important job-site information accessible
+      from the field.
+    </p>
+  </div>
+
+  <section id="product">
+    <h2>What SiteMark does</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Project Organization</h3>
+        <p>
+          Keep project information and field activity
+          organized in one mobile workspace.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Field Documentation</h3>
+        <p>
+          Document work and maintain project records
+          while working from the field.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Contractor Coordination</h3>
+        <p>
+          Organize project responsibilities,
+          assignments, and contractor-related activity.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Mobile Access</h3>
+        <p>
+          Access project-management tools from a
+          supported mobile device.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Purchasing SiteMark</h2>
+
+    <div class="price-box">
+
+      <p>
+        SiteMark uses project-based activation.
+        Customers purchase access for an individual
+        SiteMark project.
+      </p>
+
+      <p>
+        The current price is displayed clearly inside
+        the SiteMark application before payment is
+        submitted.
+      </p>
+
+      <p>
+        Payments are processed securely by Stripe.
+        SiteMark does not directly store customers'
+        complete payment-card information.
+      </p>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Customer Support</h2>
+
+    <p>
+      Customers needing assistance with SiteMark,
+      project activation, or a purchase may contact
+      support through the public SiteMark support page.
+    </p>
+
+    <p>
+      <a id="support-link" href="#">
+        SiteMark Support
+      </a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Payments</h2>
+
+    <p>
+      Payments for SiteMark project activation are
+      processed through Stripe. Successful payment does
+      not rely solely on a browser confirmation; SiteMark
+      verifies activation through its payment system
+      before enabling paid project access.
+    </p>
+  </section>
+
+  <section>
+    <h2>Policies</h2>
+
+    <p>
+      Please review SiteMark's
+      <a href="privacy.html">Privacy Policy</a>,
+      <a href="terms.html">Terms of Service</a>, and
+      <a href="refunds.html">Refund Policy</a>
+      before purchasing.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="brand">SITEMARK</div>
+
+  <p>
+    Mobile project management for construction and
+    field-work projects.
+  </p>
+
+  <p>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="refunds.html">Refunds</a>
+  </p>
+
+  <p>
+    &copy; 2026 SiteMark
+  </p>
+</footer>
+
+<script>
+  const parts =
+    window.location.hostname.split('.');
+
+  if (
+    parts.length >= 3 &&
+    window.location.hostname.endsWith('github.io')
+  ) {
+    const user = parts[0];
+
+    document
+      .getElementById('support-link')
+      .href =
+        'https://github.com/' +
+        user +
+        '/sitemark-site/issues';
+  }
+</script>
+
+</body>
+</html>
