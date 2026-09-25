@@ -183,6 +183,7 @@
     <div class="navlinks">
       <a href="#product">Product</a>
       <a href="#pricing">Pricing</a>
+      <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
       <a href="refunds.html">Refunds</a>
@@ -287,7 +288,7 @@
     </p>
 
     <p>
-      <a id="support-link" href="#">
+      <a href="support.html">
         SiteMark Support
       </a>
     </p>
@@ -328,6 +329,7 @@
   </p>
 
   <p>
+    <a href="support.html">Support</a>
     <a href="privacy.html">Privacy</a>
     <a href="terms.html">Terms</a>
     <a href="refunds.html">Refunds</a>
@@ -337,25 +339,6 @@
     &copy; 2026 SiteMark
   </p>
 </footer>
-
-<script>
-  const parts =
-    window.location.hostname.split('.');
-
-  if (
-    parts.length >= 3 &&
-    window.location.hostname.endsWith('github.io')
-  ) {
-    const user = parts[0];
-
-    document
-      .getElementById('support-link')
-      .href =
-        'https://github.com/' +
-        user +
-        '/sitemark-site/issues';
-  }
-</script>
 
 </body>
 </html>
